@@ -6,6 +6,7 @@
 #include <string.h>
 #include <argon2.h>
 
+
 Action to_action(const char* action_str) {
   Action action = ACTION_INVALID;
 
